@@ -4,12 +4,12 @@
 
 
 
-2.Extract point clouds and annotations by running `python batch_load_scannet_data.py`. Add the `--max_num_point 50000` flag if you only use the ScanNet data for the detection task. It will downsample the scenes to less points.
+2.Extract point clouds and annotations by running `python batch_load_scannet_data.py`.
 
 
 3.Follow [3DMV](https://github.com/angeladai/3DMV/) to generate 2D data.
 
-2D data is expected to be in the following file structure:
+   2D data is expected to be in the following file structure:
 
 ```
 scene0000_00/
